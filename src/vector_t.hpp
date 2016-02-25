@@ -3,13 +3,7 @@
 
 #pragma once
 
-#include <iostream>
-#include <cstdio>
-#include <cstdlib>
-
-using namespace std;
-
-typedef int TDATO;
+#include "common.hpp"
 
 class vector_t
 {
@@ -33,9 +27,7 @@ class vector_t
         
         void set_dato(int pos, TDATO dato);    //establece dato
         TDATO get_dato(int pos);              //obtiene dato
-            
-        
-
+      
     private: //Vamos a crear procedimientos para liberar y generar memoria
 
         void build(int sz);                 //

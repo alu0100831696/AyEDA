@@ -3,15 +3,7 @@
 
 #pragma once
 
-#include <cstddef>
-#include <iostream>
-#include <cstdio>
-#include <iostream>
-#include <cstdlib>
-
-using namespace std;
-
-typedef int TDATO;
+#include "common.hpp"
 
 class node_t
 {

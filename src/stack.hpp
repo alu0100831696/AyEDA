@@ -5,16 +5,6 @@
 
 #include "vector_t.hpp"
 
-#include <cstddef>
-#include <iostream>
-#include <cstdio>
-#include <iostream>
-#include <cstdlib>
-
-using namespace std;
-
-typedef int TDATO;
-
 class stack_t
 {
 	private:

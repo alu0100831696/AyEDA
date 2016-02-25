@@ -3,6 +3,8 @@
 #include "node_t.hpp"
 #include "stack.hpp"
 #include "queue_t.hpp"
+#include "stack_lista.hpp"
+#include "queue_lista.hpp"
 
 #define MAX 10
 
@@ -90,7 +92,39 @@ int main(void)
 	cout << "Cola: " << endl;
 	
 		c1.write(cout);
+		
+		
+	//PILA LISTA
 
+		stack_lista pl1;
+
+	for(int i = 0; i < MAX; i++)
+	{ 
+		
+		pl1.push(i);
+	}
+
+    //PILA LIFO
+	cout << "Pila Lista: " << endl;
+
+		pl1.write(cout);
+		
+	//COLA LISTA
+
+		queue_lista cl1;
+
+	for(int i = 0; i < MAX; i++)
+	{ 
+		
+		cl1.push(i);
+	}
+
+  
+	cout << "Cola Lista: " << endl;
+
+		cl1.write(cout);		
+		
 }
+
     
 
