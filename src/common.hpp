@@ -1,3 +1,5 @@
+/*Sofía Pizarro Arbelo*/
+
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>
